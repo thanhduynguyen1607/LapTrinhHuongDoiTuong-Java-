@@ -35,7 +35,8 @@ public class Bai6 {
             "; gioi tinh: " + sinhvien.getGioitinh() +
             "; ngay sinh: " + sinhvien.getNgaysinh() +
             "; truong hoc: " +  sinhvien.getTruonghoc());
-
+        System.out.println(sinhvien.calcTax(1200));
+        
     Worker congnhan = new Worker();
     congnhan.setHoten("Nguyen Thi C");
     congnhan.setGioitinh(0);
@@ -45,6 +46,7 @@ public class Bai6 {
                        "; gioi tinh: " + congnhan.getGioitinh() + 
                        "; ngay sinh: " + congnhan.getNgaysinh() + 
                        "; cong ty: " + congnhan.getCongty());
+        System.out.println(congnhan.calcTax(2000));
     }
     
 }
